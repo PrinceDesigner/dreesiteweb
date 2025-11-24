@@ -197,7 +197,7 @@ const DreeLanding = () => {
             <p className="text-slate-500 max-w-2xl mx-auto">Abbiamo ottimizzato la logistica della moda per portarti il tuo stile prima ancora che tu decida quali scarpe abbinarci.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {[
               { 
                 icon: <Smartphone size={32} />, 
@@ -224,7 +224,7 @@ const DreeLanding = () => {
                 color: "bg-emerald-50 text-emerald-600"
               }
             ].map((step, idx) => (
-              <div key={idx} className="relative group p-6 rounded-2xl border border-slate-100 hover:border-[#2EA7A0]/30 hover:shadow-xl transition-all bg-white">
+              <div key={idx} className="relative group flex items-center flex-col p-6 rounded-2xl border border-slate-100 hover:border-[#2EA7A0]/30 hover:shadow-xl transition-all bg-white">
                 <div className={`w-16 h-16 ${step.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
                   {step.icon}
                 </div>
@@ -294,7 +294,7 @@ const DreeLanding = () => {
                 <div className="relative w-full h-full bg-slate-700 rounded-2xl overflow-hidden">
                   
                   {/* Map Image */}
-                  <img 
+                  {/* <img 
                     src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/14.2681,40.8518,12,0/1000x600?access_token=YOUR_ACCESS_TOKEN" 
                     alt="Mappa di Napoli" 
                     className="w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-700"
@@ -303,7 +303,7 @@ const DreeLanding = () => {
                         e.target.src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Napoli_montage.jpg/800px-Napoli_montage.jpg" 
                         e.target.className="w-full h-full object-cover opacity-30"
                     }}
-                  />
+                  /> */}
                   
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
@@ -351,7 +351,7 @@ const DreeLanding = () => {
       </section>
 
       {/* Partners / Coming Soon Brands */}
-      <section id="brands" className="py-16 bg-white border-b border-slate-100">
+      {/* <section id="brands" className="py-16 bg-white border-b border-slate-100">
         <div className="container mx-auto px-6 text-center">
           <p className="text-slate-400 font-bold uppercase tracking-widest text-xs mb-8">Prossimamente in partnership con</p>
           <div className="flex flex-wrap justify-center gap-12 opacity-40 grayscale">
@@ -363,7 +363,7 @@ const DreeLanding = () => {
           </div>
           <p className="mt-8 text-xs text-slate-400">*I marchi mostrati sono a scopo illustrativo.</p>
         </div>
-      </section>
+      </section> */}
 
       {/* NEW SECTION: Store Application */}
       <section id="for-stores" className="py-24 bg-slate-50 relative">
@@ -474,7 +474,7 @@ const DreeLanding = () => {
       <section id="waitlist" className="py-20 bg-slate-50">
         <div className="container mx-auto px-6">
           {/* BRAND COLOR APPLIED HERE - Gradient Background */}
-          <div className="bg-gradient-to-r from-[#2EA7A0] to-teal-500 rounded-3xl p-10 lg:p-20 text-center text-white shadow-2xl relative overflow-hidden max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-[#2EA7A0] to-teal-500 rounded-3xl p-10 lg:p-20 text-center text-white shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full transform translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute bottom-0 left-0 w-40 h-40 bg-white opacity-10 rounded-full transform -translate-x-1/2 translate-y-1/2"></div>
             
