@@ -116,7 +116,7 @@ const DreeLanding = () => {
                                 </span>
                             </h1>
                             <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                                Dimentica i 3-5 giorni lavorativi. Dree ti porta i tuoi brand preferiti dai negozi locali direttamente alla tua porta in meno di un'ora.
+                                Dree ti porta i tuoi brand preferiti dai negozi locali direttamente alla tua porta in meno di un'ora.
                             </p>
 
                             {/* Waitlist Form - Hero */}
