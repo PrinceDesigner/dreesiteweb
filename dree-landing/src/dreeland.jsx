@@ -90,7 +90,7 @@ const DreeLanding = () => {
                         <button onClick={() => scrollToSection('how-it-works')} className="text-lg font-medium text-slate-700">Come Funziona</button>
                         <button onClick={() => scrollToSection('coverage')} className="text-lg font-medium text-slate-700">Copertura</button>
                         <button onClick={() => scrollToSection('for-stores')} className="text-lg font-medium text-slate-700">Area Negozi</button>
-                        <button onClick={() => scrollToSection('waitlist')} className="bg-[#2EA7A0] text-white py-3 rounded-xl font-bold">Iscriviti Ora</button>
+                        {/* <button onClick={() => scrollToSection('waitlist')} className="bg-[#2EA7A0] text-white py-3 rounded-xl font-bold">Iscriviti Ora</button> */}
                     </div>
                 )}
             </nav>
