@@ -72,9 +72,9 @@ const DreeLanding = () => {
                         <button onClick={() => scrollToSection('how-it-works')} className="text-slate-600 hover:text-[#2EA7A0] font-medium transition-colors">Come Funziona</button>
                         <button onClick={() => scrollToSection('coverage')} className="text-slate-600 hover:text-[#2EA7A0] font-medium transition-colors">Copertura</button>
                         <button onClick={() => scrollToSection('for-stores')} className="text-slate-600 hover:text-[#2EA7A0] font-medium transition-colors">Partner</button>
-                        <button onClick={() => scrollToSection('waitlist')} className="bg-slate-900 text-white px-6 py-2.5 rounded-full font-medium hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        {/* <button onClick={() => scrollToSection('waitlist')} className="bg-slate-900 text-white px-6 py-2.5 rounded-full font-medium hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                             Lista d'attesa
-                        </button>
+                        </button> */}
                     </div>
 
                     <div className="md:hidden">
